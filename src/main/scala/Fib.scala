@@ -12,6 +12,6 @@ object Fib {
   }
 
   def execute(args: String): String = {
-    this.calculate(args.split(",").head.toInt)
+    this.calculate(args.split(",").head.toInt).toString
   }
 }
